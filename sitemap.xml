@@ -36,7 +36,22 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tech.fudan.today/share/linux/</loc>
+     <loc>https://tech.fudan.today/share/tools/ubiquitous/</loc>
+     <lastmod>2019-10-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://tech.fudan.today/share/tools/linux/</loc>
+     <lastmod>2019-10-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://tech.fudan.today/share/tools/windows/</loc>
+     <lastmod>2019-10-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://tech.fudan.today/share/tools/macos/</loc>
      <lastmod>2019-10-01</lastmod>
      <changefreq>daily</changefreq>
     </url>

@@ -1,3 +1,4 @@
+<!-- Fix MathJax rendering on iOS Safari due to rendering long numbers as phone numbers. -->
 
 
 
@@ -6,12 +7,15 @@
 <html lang="zh" class="no-js">
   <head>
     
+    
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
         <meta name="description" content="技术分享、讨论与学习">
       
+      
+        <link rel="canonical" href="https://tech.fudan.today/share/tools/windows/">
       
       
         <meta name="author" content="All FDU Tech Lovers!">
@@ -35,18 +39,20 @@
       
         <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
       
-      <link rel="shortcut icon" href="/_static/assets/logo-temp.png">
+      <link rel="shortcut icon" href="../../../_static/assets/logo-temp.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
     
+    <meta name="format-detection" content="telephone=no">
+
     
       
-        <title>今日孵蛋技术论坛</title>
+        <title>Windows - 今日孵蛋技术论坛</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/application.30686662.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.30686662.css">
       
-        <link rel="stylesheet" href="/assets/stylesheets/application-palette.a8b3c06d.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -55,7 +61,7 @@
       
     
     
-      <script src="/assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../../../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
@@ -64,10 +70,10 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="/assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
-      <link rel="stylesheet" href="/_static/css/katex.css">
+      <link rel="stylesheet" href="../../../_static/css/katex.css">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css">
     
@@ -140,7 +146,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                
+                Windows
               
             </span>
           
@@ -208,7 +214,9 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -217,7 +225,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           主页
         </a>
       
@@ -230,7 +238,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/share/markdown/" class="md-tabs__link">
+        <a href="../../markdown/" class="md-tabs__link md-tabs__link--active">
           资源分享
         </a>
       
@@ -247,7 +255,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/oj/9-25/" class="md-tabs__link">
+        <a href="../../../oj/9-25/" class="md-tabs__link">
           刷题
         </a>
       
@@ -325,7 +333,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/." title="欢迎" class="md-nav__link">
+    <a href="../../.." title="欢迎" class="md-nav__link">
       欢迎
     </a>
   </li>
@@ -337,7 +345,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/announcement/" title="通知" class="md-nav__link">
+    <a href="../../../announcement/" title="通知" class="md-nav__link">
       通知
     </a>
   </li>
@@ -349,7 +357,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/contribute/" title="如何贡献" class="md-nav__link">
+    <a href="../../../contribute/" title="如何贡献" class="md-nav__link">
       如何贡献
     </a>
   </li>
@@ -361,7 +369,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/mkdocs-intro/" title="Mkdocs 简介" class="md-nav__link">
+    <a href="../../../mkdocs-intro/" title="Mkdocs 简介" class="md-nav__link">
       Mkdocs 简介
     </a>
   </li>
@@ -373,7 +381,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/welcome/" title="入站仪式" class="md-nav__link">
+    <a href="../../../welcome/" title="入站仪式" class="md-nav__link">
       入站仪式
     </a>
   </li>
@@ -388,10 +396,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       资源分享
@@ -409,7 +419,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/share/markdown/" title="Markdown" class="md-nav__link">
+    <a href="../../markdown/" title="Markdown" class="md-nav__link">
       Markdown
     </a>
   </li>
@@ -421,7 +431,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/share/github/" title="GitHub" class="md-nav__link">
+    <a href="../../github/" title="GitHub" class="md-nav__link">
       GitHub
     </a>
   </li>
@@ -431,10 +441,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
     
     <label class="md-nav__link" for="nav-2-3">
       工具推荐
@@ -452,7 +464,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/share/tools/ubiquitous/" title="全平台" class="md-nav__link">
+    <a href="../ubiquitous/" title="全平台" class="md-nav__link">
       全平台
     </a>
   </li>
@@ -464,7 +476,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/share/tools/linux/" title="Linux" class="md-nav__link">
+    <a href="../linux/" title="Linux" class="md-nav__link">
       Linux
     </a>
   </li>
@@ -474,11 +486,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="/share/tools/windows/" title="Windows" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Windows" class="md-nav__link md-nav__link--active">
       Windows
     </a>
+    
   </li>
 
         
@@ -488,7 +507,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/share/tools/macos/" title="MacOS" class="md-nav__link">
+    <a href="../macos/" title="MacOS" class="md-nav__link">
       MacOS
     </a>
   </li>
@@ -548,7 +567,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/oj/9-25/" title="第三周" class="md-nav__link">
+    <a href="../../../oj/9-25/" title="第三周" class="md-nav__link">
       第三周
     </a>
   </li>
@@ -575,13 +594,26 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
-
-              
                 
-
-
+                  <a href="https://github.com/fudan-today/tech/edit/master/content/share/tools/windows.md" title="编辑此页" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Windows</h1>
+                
+                
+                
+                  
+                
               
+              
+<script src="https://utteranc.es/client.js"
+        repo="fudan-today/discussion.tech"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
             </article>
           </div>
         </div>
@@ -589,6 +621,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../linux/" title="Linux" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                Linux
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../macos/" title="MacOS" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                MacOS
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -606,7 +673,7 @@
       </div>
       
   <div class="md-footer-social">
-    <link rel="stylesheet" href="/assets/fonts/font-awesome.css">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
     
       <a href="https://github.com/fudan-today" class="md-footer-social__link fa fa-github"></a>
     
@@ -622,28 +689,28 @@
       
     </div>
     
-      <script src="/assets/javascripts/application.c648116f.js"></script>
+      <script src="../../../assets/javascripts/application.c648116f.js"></script>
       
         
         
           
-          <script src="/assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
           
             
               
-                <script src="/assets/javascripts/lunr/tinyseg.js"></script>
+                <script src="../../../assets/javascripts/lunr/tinyseg.js"></script>
               
               
-                <script src="/assets/javascripts/lunr/lunr.ja.js"></script>
+                <script src="../../../assets/javascripts/lunr/lunr.ja.js"></script>
               
             
           
           
         
       
-      <script>app.initialize({version:"1.0.4",url:{base:"/"}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
-        <script src="/_static/js/katex.js"></script>
+        <script src="../../../_static/js/katex.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"></script>
       
