@@ -36,6 +36,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://tech.fudan.today/share/markdown/</loc>
+     <lastmod>2019-10-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://tech.fudan.today/oj/9-25/</loc>
      <lastmod>2019-10-01</lastmod>
      <changefreq>daily</changefreq>
